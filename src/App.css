@@ -67,6 +67,9 @@ body{
 .box-login input{
   width: 100%;
 }
+input[type=text]:focus{
+  outline: none;
+}
 .box-login label{
   margin-top: 20px;
 }
