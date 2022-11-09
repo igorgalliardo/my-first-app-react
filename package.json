@@ -1,14 +1,18 @@
 {
+  "resolutions": {
+    "minimist": "^1.2.5"
+  },
   "name": "my-first-app-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://igorgalliardo.github.io/my-first-app-react/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.2",
     "bootstrap-icons": "^1.9.1",
-    "gh": "^2.0.7",
+    "gh": "^2.0.9",
     "pages": "^0.0.16",
     "react": "^18.2.0",
     "react-bootstrap": "^2.6.0",
@@ -23,7 +27,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepublicar": "npm run build",
+    "publicar": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -42,5 +48,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "minimist": "^1.2.7"
   }
 }
