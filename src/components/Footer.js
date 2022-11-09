@@ -12,7 +12,7 @@ function Footer() {
     <div>
         <div className='footer'>
             Developed and maintaned by: Igor Galliardo | My first project with React
-            <a href='https://github.com/igorgalliardo' target="_blank"><img src='image/git-1.png' onMouseOver={mouseInside} onMouseOut={mouseOutside}/></a>
+            <a href='https://github.com/igorgalliardo' target="_blank"><img id='image' src='image/git-1.png' onMouseOver={mouseInside} onMouseOut={mouseOutside}/></a>
         </div>
     </div>
   )

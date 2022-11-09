@@ -19,6 +19,14 @@ body{
 .title-header{
   margin-left: 50px;
 }
+.title-header a{
+  text-decoration: none;
+  color: #FFF;
+}
+.title-header a:hover{
+  cursor: pointer;
+  color: #FFF;
+}
 .access-header{
   margin-right: 50px;
 }
@@ -34,6 +42,7 @@ body{
 .login-link a:hover{
   color: rgb(177, 158, 204);
   text-decoration: none;
+  cursor: pointer;
 }
 .singup-link a{
   color: rgb(177, 158, 204);
@@ -42,10 +51,11 @@ body{
 }
 .singup-link a:hover{
   color: #FFF;
+  cursor: pointer;
 }
 .container-login{
   width: 100vw;
-  height: calc(100vh - (50px + 30px));
+  height: calc(100vh - (160px + 30px));
   display: flex;
   justify-content: center;
   align-items: center;
@@ -90,14 +100,14 @@ input[type=text]:focus{
 }
 .footer{
   width: 100%;
-  height: 70px;
+  height: 80px;
   background: linear-gradient(90deg, rgba(96,92,175,1) 0%, rgba(104,17,175,1) 35%, rgba(34,59,140,1) 100%);
-  bottom: 0px;
-  position: fixed;
   color: #FFF;
   display: flex;
   justify-content: center;
   align-items: center;
+  bottom: 0;
+  position: absolute;
 }
 .footer img{
   width: 30px;
@@ -105,4 +115,31 @@ input[type=text]:focus{
 }
 .footer img:hover{
   cursor: pointer;
+}
+
+.container-singup{
+  margin: 0 auto;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.title-singup{
+  width: 100%;
+  display: flex;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.form-singup{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 30px;
+  box-shadow: 1px 1px 2px 1px #b3b3b3;
 }
