@@ -4,7 +4,7 @@
   },
   "name": "my-first-app-react",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://igorgalliardo.github.io/my-first-app-react/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
