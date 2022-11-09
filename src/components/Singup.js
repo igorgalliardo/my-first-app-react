@@ -17,20 +17,20 @@ function Singup() {
         <div className='container-singup'>
             <div className='title-singup'><h1>Signup new User</h1></div>
             <div className='form-singup'>
-                <form class="row g-3">
+                <form className="row g-3">
                     <div className="col-md-6">
                         <label for="inputEmail4" className="form-label">Email</label>
                         <input type="email" className="form-control" id="inputEmail4" />
                     </div>
-                    <div class="col-md-6">
+                    <div className="col-md-6">
                         <label for="inputPassword4" className="form-label">Password</label>
                         <input type="password" className="form-control" id="inputPassword4" />
                     </div>
-                    <div class="col-12">
+                    <div className="col-12">
                         <label for="inputAddress" className="form-label">Address</label>
                         <input type="text" className="form-control" id="inputAddress" placeholder="1234 Main St" />
                     </div>
-                    <div class="col-12">
+                    <div className="col-12">
                         <label for="inputAddress2" className="form-label">Address 2</label>
                         <input type="text" className="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" />
                     </div>
@@ -50,7 +50,7 @@ function Singup() {
                         </div>
                     </div>
                     <div className="col-12">
-                        <button type="submit" class="btn btn-primary">Sign in</button>
+                        <button type="submit" className="btn btn-primary">Sign in</button>
                     </div>
                     </form>
                 </div>
