@@ -16,8 +16,8 @@ function Country() {
   return (
     <div>
        
-            <label for="inputState" class="form-label">Country</label>
-                <select id="inputState" class="form-select">
+            <label for="inputState" className="form-label">Country</label>
+                <select id="inputState" className="form-select">
                     <option selected>Choose...</option>
                         {
                             country.map( (countryget)=>(

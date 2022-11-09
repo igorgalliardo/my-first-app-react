@@ -9,7 +9,7 @@ function Header() {
                 <h1><Link to="/">Scratch</Link></h1>
             </div>
             <div className='access-header'>
-                <scan className="singup-link"><Link to="/Singup">Singup</Link></scan>
+                <scan className="singup-link"><Link to="/Singup">Signup</Link></scan>
                 <scan className="login-link"><Link to="/Login">Login</Link></scan>
             </div>
         </div>

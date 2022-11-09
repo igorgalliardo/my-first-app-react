@@ -7,7 +7,7 @@ function Home() {
   return (
     <div>
         <Header />
-        <div class="context">
+        <div className="context">
             <h1>Welcome</h1>
         </div>
         <Footer />
