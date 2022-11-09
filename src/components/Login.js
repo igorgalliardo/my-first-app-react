@@ -2,6 +2,7 @@ import React from 'react'
 import * as Icon from 'react-bootstrap-icons'
 import Header from './Header'
 import Footer from './Footer'
+import AnimatedBackground from './AnimatedBackground'
 
 function Login() {
   return (
@@ -30,6 +31,7 @@ function Login() {
             </div>
         </div>  
         <Footer />
+        <AnimatedBackground />
     </div>
   )
 }
