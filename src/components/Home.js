@@ -10,8 +10,8 @@ function Home() {
         <div className="context">
             <h1>Welcome</h1>
         </div>
-        <Footer />
         <AnimatedBackground />
+        <Footer />
     </div>
   )
 }

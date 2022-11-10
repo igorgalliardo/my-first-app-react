@@ -29,9 +29,9 @@ function Login() {
                     <a id="recover-pass" href='#'>Request new Password</a>
                 </form>
             </div>
-        </div>  
-        <Footer />
+        </div>
         <AnimatedBackground />
+        <Footer />
     </div>
   )
 }
